@@ -264,23 +264,25 @@ html {
   height: 120vh;
 }
 .btn {
-  position: absolute;
-  bottom: 30px;
-  transition: 00.3s;
+    position: absolute;
+    bottom: 30px;
+    transition: 00.3s;
+    top: 50%;
 }
 .btn:hover {
   color: #fcac23 !important;
 }
 #nextBtn {
-    left: 15%;
+    left: -1%;
     color: #080436;
     font-size: 30px;
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(101%);
 }
 #prevBtn {
-  right: 15%;
-  color: #080436;
-  font-size: 30px;
+    right: -1%;
+    color: #080436;
+    font-size: 30px;
+    transform: translateY(-34px);
 }
 /* End Menu */
 /* Start contact_us */
