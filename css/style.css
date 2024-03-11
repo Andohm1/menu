@@ -261,7 +261,7 @@ html {
   padding: 35px 20px; 
 }
 .menu .cards {
-  height: 880px;
+  height: 120vh;
 }
 .btn {
   position: absolute;
